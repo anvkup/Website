@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-user-select: none;
 }
+
 .spinner {
   position: absolute;
   top: 48%;
@@ -11,7 +12,7 @@
   text-align: center;
 }
 
-.spinner > div {
+.spinner>div {
   width: 18px;
   height: 18px;
   background-color: #333;
@@ -40,22 +41,36 @@
   bottom: 0;
   background-color: #ff6347;
   z-index: 999999;
-  }
+}
 
 @-webkit-keyframes sk-bouncedelay {
-  0%, 80%, 100% { -webkit-transform: scale(0) }
-  40% { -webkit-transform: scale(1.0) }
+
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0)
+  }
+
+  40% {
+    -webkit-transform: scale(1.0)
+  }
 }
 
 @keyframes sk-bouncedelay {
-  0%, 80%, 100% { 
+
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
-  } 40% { 
+  }
+
+  40% {
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
   }
 }
+
 #status {
   width: 200px;
   height: 200px;
@@ -89,9 +104,11 @@
   justify-content: center;
   font-family: "Brittany Signature", sans-serif;
 }
+
 #brandname {
   font-size: xx-large;
 }
+
 .menu {
   background-color: rgb(0, 0, 0);
   list-style-type: none;
@@ -113,6 +130,7 @@
   font-family: "Zen Kurenaido", sans-serif;
   border-radius: 10px;
 }
+
 .menu a:hover {
   font-size: 25;
   text-decoration: none;
@@ -121,30 +139,75 @@
   border-radius: 10px;
   transition-duration: 500ms;
 }
+
 #greet {
   text-align: center;
   padding-top: 20px;
 }
+
 .main-content p {
   padding: 20px;
   font-family: "Zen Kurenaido", sans-serif;
   font-size: larger;
 }
+
 #footer {
   padding: 10px;
   background-color: black;
   color: white;
   border-radius: 10px 10px 0px 0px;
 }
-.icondiv{
-  box-sizing: border-box;
-  
-  background-color:white;
+
+.iconbox {
+  display: flex;
+  justify-content: center;
 }
-.licons{
-  max-width: 1em;
+
+.icondiv {
+  display: flex;
+  justify-content: space-evenly;
+  /* box-sizing: border-box; */
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  width: 20%;
+  ;
+
 }
+
+.licons {
+  display: flex;
+  width: 2em;
+}
+
+
 #copyright {
   text-align: center;
   margin: 0;
+}
+
+/* ------------------------------------ LANDING PAGE SPECIFIC ------------------------------------ */
+#hometextarea {
+  text-align: center;
+
+}
+#membertitle{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+#memberiglink{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 0px 0px 40px;
+  
+}
+#memberiglink a{
+  text-decoration: none;
+}
+
+/* ------------------------------------ ABOUT PAGE SPECIFIC ------------------------------------ */
+.instapost {
+  display: flex;
+  justify-content: center;
 }

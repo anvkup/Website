@@ -1,100 +1,12 @@
+/* font-family: 'Brittney Signature', sans-serif; */
+                                                
+
 * {
   margin: 0;
   padding: 0;
   -webkit-user-select: none;
 }
 
-.spinner {
-  position: absolute;
-  top: 48%;
-  left: 48%;
-  width: 70px;
-  text-align: center;
-}
-
-.spinner>div {
-  width: 18px;
-  height: 18px;
-  background-color: #333;
-
-  border-radius: 100%;
-  display: inline-block;
-  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-}
-
-.spinner .bounce1 {
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-
-.spinner .bounce2 {
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s;
-}
-
-.spinner-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ff6347;
-  z-index: 999999;
-}
-
-@-webkit-keyframes sk-bouncedelay {
-
-  0%,
-  80%,
-  100% {
-    -webkit-transform: scale(0)
-  }
-
-  40% {
-    -webkit-transform: scale(1.0)
-  }
-}
-
-@keyframes sk-bouncedelay {
-
-  0%,
-  80%,
-  100% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-
-  40% {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-  }
-}
-
-#status {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  /* centers the loading animation horizontally one the screen */
-  top: 50%;
-  /* centers the loading animation vertically one the screen */
-  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
-  /* path to your loading animation */
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: -100px 0 0 -100px;
-  /* is width and height divided by two */
-}
-
-/* #loading {
-  position: fixed;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-  background: #fff url("/Spinner-1s-200px.gif") no-repeat center;
-  z-index: 10;
-} */
 .header_background {
   padding: 30px 0px 10px 0px;
   background-color: black;
@@ -117,12 +29,6 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-/* .gradient{
-  border:none;
-  width: 10px solid;
-  height: 10px;
-  border: 10px;
-} */
 .menu a {
   font-size: 25px;
   text-decoration: none;

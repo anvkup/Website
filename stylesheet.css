@@ -9,17 +9,12 @@
 .header_background {
   padding: 30px 0px 10px 0px;
   background-color: black;
-  font-size: 60px;
-  color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: center;
-  font-family: "Brittany Signature", sans-serif;
+justify-content: center;
+display: flex;
 }
-
-#brandname {
-  font-size: xx-large;
+.header_image{
+  width: 20%;
 }
-
 .menu {
   background-color: rgb(0, 0, 0);
   list-style-type: none;

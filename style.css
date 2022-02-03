@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mlink {
+    font-family: "Zen Kurenaido", sans-serif;
+}

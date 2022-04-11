@@ -1,0 +1,30 @@
+* {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+body img {
+    width: 40em;
+}
+
+.head-msg {
+    background-color: transparent;
+    color: beige;
+    text-align: center;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: xx-large;
+    word-spacing: 0.1em;
+    letter-spacing: 0.2em;
+    padding: .5em;
+}
+
+.heading {
+    width: fit-content;
+    background-color: transparent;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+}

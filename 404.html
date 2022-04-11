@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NOT-Found</title>
-</head>
-<body>
-    <h1>Not Found</h1>
-</body>
+    <link rel="stylesheet" href="404.css" />
+  </head>
+  <body>
+    <div class="centre logodiv">
+      <img src="Assets/Adagio.png" class="mainlogo" alt="" />
+    </div>
+    <p
+      style="color: white; text-align: center; font-size: x-large; padding: 1em"
+    >
+      Oops...!
+    </p>
+    <div class="centre">
+      <div class="heading">
+        <h1 class="head-msg">404 Not Found</h1>
+      </div>
+    </div>
+    <br />
+    <br /><br /><br /><br />
+    <div class="centre">
+      <div style="width: fit-content">
+        <a href="index.html" style="text-decoration: none"
+          ><h2
+            style="
+              text-align: center;
+              background-color: transparent;
+              padding: 1em;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+              color: rgba(255, 255, 255, 0.89);
+            "
+          >
+            HomePage
+          </h2>
+        </a>
+      </div>
+    </div>
+  </body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+  </style>
+  <!-- Google Ads API -->
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1016138097132177"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- (Animation Library) -->
+  <script src="/js/anime.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Animation codes -->
+  <script>
+    AOS.init();
+    anime({
+      targets: ".heading",
+      rotate: "1turn",
+      translateY: 100,
+      duration: 1000,
+      direction: "alternate",
+      easing: "spring(1, 80, 10, 0)",
+      duration: 750,
+    });
+  </script>
 </html>

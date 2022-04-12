@@ -1,27 +1,26 @@
 {
   "name": "the-adagio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "postcss.config.js",
+  "version": "2.0.0",
+  "description": "Official Website of The-Adagio by Anvesh",
+  "main": "app.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "nodemon app"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anvkup/the-adagio.git"
   },
-  "author": "",
+  "keywords": [
+    "music"
+  ],
+  "author": "Anvesh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/anvkup/the-adagio/issues"
   },
   "homepage": "https://github.com/anvkup/the-adagio#readme",
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.18"
-  },
   "dependencies": {
-    "vite": "^2.7.13"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
